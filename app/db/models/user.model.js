@@ -1,4 +1,5 @@
 const mongoose = require("mongoose")
+const { Schema } = require("mongoose")
 
 const userSchema = mongoose.Schema({
     fName: {
@@ -77,7 +78,7 @@ const userSchema = mongoose.Schema({
         }
     ],
     ruleId: {
-        String
+        id: Schema.Types.ObjectId
     }
 
 })

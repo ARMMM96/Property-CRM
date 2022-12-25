@@ -1,16 +1,12 @@
 const router = require("express").Router()
+const Rules = require('../controller/rules.controller')
 
 
 
-router.get("/user", (req, res) => {
 
-    res.json({
-        "firstName": "ahmed",
-        "lastName": "rabie",
-        "rule": "suepr admin"
-    });
 
-})
+router.get("/create", Rules.createRule)
+router.get("/rule", Rules.getRule)
 
 
 
