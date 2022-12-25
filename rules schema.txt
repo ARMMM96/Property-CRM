@@ -1,0 +1,46 @@
+ruels schema 
+
+		will contain the type of user and the permstions array
+
+
+
+rules .url
+
+
+
+________________________________________________________________________________________________________________________________________________
+
+Role 
+
+	urls 
+
+	url 
+		method 
+		params
+		query
+		
+
+
+you will give the user the rule id as a param 
+
+
+i need a table with all the system routes with it all methods 
+
+			API that contain all the routes and params and methods 
+
+
+example
+		urls
+		methods
+		query 
+		rule : [uesr rules]
+	
+
+
+________________________________________________________________________________________________________________________________________________
+
+
+
+property permstions will be fore each rule 
+
+and each rule wil contain an array of urls 
