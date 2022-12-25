@@ -2,7 +2,7 @@ const express = require("express")
 const app = express()
 const cors = require("cors")
 app.use(cors())
-require("./db/models/connection")
+require("./db/connection")
 
 
 const userRoutes = require("./routes/user.routes")
