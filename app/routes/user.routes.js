@@ -1,16 +1,9 @@
 const router = require("express").Router()
+const User = require('../controller/user.contoller')
 
 
 
-router.get("/user", (req, res) => {
-
-    res.json({
-        "firstName": "ahmed",
-        "lastName": "rabie",
-        "rule": "suepr admin"
-    });
-
-})
+router.get("/user", User.getUser)
 
 
 
