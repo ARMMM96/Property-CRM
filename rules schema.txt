@@ -41,6 +41,11 @@ ________________________________________________________________________________
 
 
 
-property permstions will be fore each rule 
+property permstions will be for  each rule 
 
 and each rule wil contain an array of urls 
+
+
+
+
+
