@@ -1,4 +1,3 @@
-const { url } = require("inspector")
 const mongoose = require("mongoose")
 
 const rulesSchema = mongoose.Schema({
